@@ -16,6 +16,10 @@ html {
     line-height: 1.4;
 }
 
+li {
+    list-style-type: none;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -106,12 +110,13 @@ nav {
 
 #nav_wrapper {
    display: flex; 
-    
+    margin: 0px;
 }
 
 #nav_logo {
     max-width: 50%;
     max-height: 50%;
+    margin: auto;
 }
 
 #nav_logo img {
@@ -119,21 +124,37 @@ nav {
     max-height: 100%;
 }
 
-#nav_wrapper ul {
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    justify-content: flex-end;
-}
-#nav_wrapper ul li {
-    padding: 0px 10px;
-    text-align: center
-}
-
 #body_wrapper {
- background: url('../img/background.jpg');
+    background: url('../img/background.jpg');
+    display: flex;
 }
 
+#who-we-are {
+    flex: 1;
+}
+
+#contact-us {
+    flex: 2;
+    flex-direction: column;
+}
+
+#contact-us h1 {
+    padding-left: 35px;
+}
+
+#who-we-are, #contact-us {
+    padding: 0 50px;
+}
+
+#contact-details {
+    display: flex;
+}
+
+#Dominic li, #Micah li, #Tom li {
+    display: flex;
+    padding: 0px;
+}
+    
 
 
 
