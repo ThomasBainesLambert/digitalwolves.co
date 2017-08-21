@@ -106,6 +106,7 @@ nav {
 
 #nav_wrapper {
    display: flex; 
+    
 }
 
 #nav_logo {
@@ -130,10 +131,6 @@ nav {
 }
 
 #body_wrapper {
-    
-}
-
-#section {
  background: url('../img/background.jpg');
 }
 
