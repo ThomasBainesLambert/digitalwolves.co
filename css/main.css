@@ -99,18 +99,40 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #252161;
+}
 
+h1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
 
+main {
+    
+}
 
+ul {
+    margin-top: 0;
+}
 nav {
     background: #252161;
     padding: 0;
     color: white;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 100px #252161;
+    position: relative;
+    
 }
 
 #nav_wrapper {
    display: flex; 
     margin: 0px;
+    
 }
 
 #nav_logo {
@@ -126,7 +148,12 @@ nav {
 
 #body_wrapper {
     background: url('../img/background.jpg');
+    height: 50vh;
+}
+#body-content {
     display: flex;
+    max-width: 1200px;
+    margin: auto;
 }
 
 #who-we-are {
@@ -136,6 +163,7 @@ nav {
 #contact-us {
     flex: 2;
     flex-direction: column;
+    padding-left: 0;
 }
 
 #contact-us h1 {
@@ -143,7 +171,7 @@ nav {
 }
 
 #who-we-are, #contact-us {
-    padding: 0 50px;
+    padding: 0 25px;
 }
 
 #contact-details {
